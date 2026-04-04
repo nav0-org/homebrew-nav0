@@ -1,4 +1,4 @@
-cask "nav0-browser" do
+cask "nav0" do
   version "0.1.1"
 
   on_arm do
@@ -22,5 +22,5 @@ cask "nav0-browser" do
     strategy :github_latest
   end
 
-  app "nav0-browser.app"
+  app "Nav0.app"
 end
