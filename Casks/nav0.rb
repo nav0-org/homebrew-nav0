@@ -1,15 +1,15 @@
 cask "nav0" do
-  version "0.2.4"
+  version "0.2.5"
 
   on_arm do
-    sha256 "49f214567cf1bcfd7acc1c4154bda2304f8005f48727aeea452f2540ea50b3cc"
-    url "https://github.com/nav0-org/nav0-browser/releases/download/v#{version}/Nav0-darwin-arm64-0.2.4.zip",
+    sha256 "0e0020a360d62cc7c5ce24123a4baf06ff5091446310c8daef52a02b6686be47"
+    url "https://github.com/nav0-org/nav0-browser/releases/download/v#{version}/Nav0-darwin-arm64-0.2.5.zip",
         verified: "github.com/nav0-org/nav0-browser/"
   end
 
   on_intel do
-    sha256 "df65b3b34e46c384bcf42c880116ea8ce25acf9635e2a4a8342d0c5d2449c020"
-    url "https://github.com/nav0-org/nav0-browser/releases/download/v#{version}/Nav0-darwin-x64-0.2.4.zip",
+    sha256 "9762f44e3493c7f3790b48924fdaa0e589c9904564ce37413319c9a5614ed0d1"
+    url "https://github.com/nav0-org/nav0-browser/releases/download/v#{version}/Nav0-darwin-x64-0.2.5.zip",
         verified: "github.com/nav0-org/nav0-browser/"
   end
 
